@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav({ handleSearchChange }) {
     return (
-        <nav className="navbar navbar-expand navbar-dark bg-light">
+        <nav className="navbar navbar-expand navbar-light">
             <div className="navbar-collapse row" id="navbarNav">
                 <div className="searchbox">
                     <form className="form-inline">

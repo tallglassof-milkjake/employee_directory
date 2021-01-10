@@ -9,7 +9,7 @@ function Data({ users }) {
                         <tr key={login.uuid}>
                             <td data-th="Image" className="align-middle">
                                 <img 
-                                    src={picture.small}
+                                    src={picture.medium}
                                     alt={`Image of ${name.first} ${name.last}`}
                                     className="img-responsive"
                                 />

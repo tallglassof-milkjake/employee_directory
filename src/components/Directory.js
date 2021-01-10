@@ -14,8 +14,7 @@ class Directory extends Component {
         { name: "Image", width: "10%" },
         { name: "Name", width: "10%" },
         { name: "Phone", width: "10%" },
-        { name: "Email", width: "10%" },
-        { name: "DOB", width: "10%" },
+        { name: "Email", width: "10%" }
     ]
 
     handleSearchChange = event => {

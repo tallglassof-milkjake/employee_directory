@@ -4,9 +4,11 @@ import Directory from "./Directory";
 class Main extends Component {
     render() {
         return(
-            <>
-                <Directory />
-            </>
+            <div className="container">
+                <>
+                    <Directory />
+                </>
+            </div>
         )
     }
 }
