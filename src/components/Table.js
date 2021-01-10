@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "./Data";
+import "../styles/Table.css";
 
 function Table({ headings, users }) {
     return (

@@ -12,7 +12,9 @@ class Directory extends Component {
 
     headings = [
         { name: "Image", width: "10%" },
+        { name: "Id", width: "10%"},
         { name: "Name", width: "10%" },
+        { name: "Location", width: "10%"},
         { name: "Phone", width: "10%" },
         { name: "Email", width: "10%" }
     ]
