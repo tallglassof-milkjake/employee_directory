@@ -1,0 +1,12 @@
+.header {
+    padding: 30px 0;
+    color: #ffffff;
+    background-color: #2097ac;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.display-1 {
+    font-family: 'Roboto Mono', monospace;
+}
