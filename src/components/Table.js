@@ -2,7 +2,7 @@ import React from "react";
 import Data from "./Data";
 import "../styles/Table.css";
 
-function Table({ headings, users }) {
+function Table({ headings, users, handleSort }) {
     return (
         <div className="datatable mt-5">
             <table 
@@ -17,8 +17,12 @@ function Table({ headings, users }) {
                                     className="col"
                                     key={name}
                                     style={{ width }}
+                                    onClick={() => {
+                                        handleSort(name.toLowerCase());
+                                    }}
                                 >
                                     {name}
+                                    <span className="pointer"></span>
                                 </th>
                             );
                         })}
