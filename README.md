@@ -18,6 +18,7 @@
 ### Description
 
 A React app randomly calling "employees" from the API with the ability to filter the list and sort by name.
+Visit application [Here](https://tallglassof-milkjake.github.io/employee_directory/). Deployed using Github pages.
 
 
 ### Installation
