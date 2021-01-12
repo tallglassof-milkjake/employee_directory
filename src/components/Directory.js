@@ -30,7 +30,7 @@ class Directory extends Component {
           })
         }
     
-        const compareFnc = (a, b) => {
+        const compare = (a, b) => {
           if (this.state.order === "ascend") {
             
             if (a[heading] === undefined) {
@@ -60,7 +60,7 @@ class Directory extends Component {
            }
     
         }
-        const sortedUsers = this.state.filteredUsers.sort(compareFnc);
+        const sortedUsers = this.state.filteredUsers.sort(compare);
         this.setState({ filteredUsers: sortedUsers });
       }
     
